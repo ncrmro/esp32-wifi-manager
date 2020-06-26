@@ -70,14 +70,15 @@ static TaskHandle_t task_http_server = NULL;
  * @see file "component.mk"
  * @see https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#embedding-binary-data
  */
-extern const uint8_t style_css_start[] asm("_binary_style_css_start");
-extern const uint8_t style_css_end[]   asm("_binary_style_css_end");
-extern const uint8_t jquery_gz_start[] asm("_binary_jquery_gz_start");
-extern const uint8_t jquery_gz_end[] asm("_binary_jquery_gz_end");
-extern const uint8_t code_js_start[] asm("_binary_code_js_start");
-extern const uint8_t code_js_end[] asm("_binary_code_js_end");
-extern const uint8_t index_html_start[] asm("_binary_index_html_start");
-extern const uint8_t index_html_end[] asm("_binary_index_html_end");
+// edited by ncrmro, expects a folder in your src folder called static to contain these files.
+extern const uint8_t style_css_start[] asm("_binary_src_static_style_css_start");
+extern const uint8_t style_css_end[]   asm("_binary_src_static_style_css_end");
+extern const uint8_t jquery_gz_start[] asm("_binary_src_static_jquery_gz_start");
+extern const uint8_t jquery_gz_end[] asm("_binary_src_static_jquery_gz_end");
+extern const uint8_t code_js_start[] asm("_binary_src_static_code_js_start");
+extern const uint8_t code_js_end[] asm("_binary_src_static_code_js_end");
+extern const uint8_t index_html_start[] asm("_binary_src_static_index_html_start");
+extern const uint8_t index_html_end[] asm("_binary_src_static_index_html_end");
 
 
 /* const http headers stored in ROM */
