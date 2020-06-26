@@ -11,6 +11,8 @@ For real time constrained applications, *esp32-wifi-manager* can live entirely o
 
 ### Build status [![Build Status](https://travis-ci.com/tonyp7/esp32-wifi-manager.svg?branch=master)](https://travis-ci.com/tonyp7/esp32-wifi-manager)
 
+This fork gets this working correctly with platformio
+
 # Demo
 [![esp32-wifi-manager demo](http://img.youtube.com/vi/hxlZi15bym4/0.jpg)](http://www.youtube.com/watch?v=hxlZi15bym4)
 
