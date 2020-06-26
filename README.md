@@ -1,3 +1,6 @@
+# This Fork
+...gets this working correctly with platformio
+
 # What is esp32-wifi-manager?
 *esp32-wifi-manager* is an esp-idf component for ESP32 and ESP8266 that enables easy management of wifi networks through a web application.
 
@@ -10,8 +13,6 @@ For real time constrained applications, *esp32-wifi-manager* can live entirely o
 *esp32-wifi-manager* is an esp-idf project that compiles successfully with the esp-idf 3.2 release. You can simply copy the project and start adding your own code to it.
 
 ### Build status [![Build Status](https://travis-ci.com/tonyp7/esp32-wifi-manager.svg?branch=master)](https://travis-ci.com/tonyp7/esp32-wifi-manager)
-
-This fork gets this working correctly with platformio
 
 # Demo
 [![esp32-wifi-manager demo](http://img.youtube.com/vi/hxlZi15bym4/0.jpg)](http://www.youtube.com/watch?v=hxlZi15bym4)
